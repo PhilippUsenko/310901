@@ -1,10 +1,3 @@
-import Journal.*
-import AbstractLesson.*
-import Professor.*
-import StringOfJournal.*
-import Student.*
-import University.*
-
 fun main() {
     val univer = University()
     univer.addstudent("Богуш")

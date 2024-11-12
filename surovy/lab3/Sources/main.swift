@@ -1,0 +1,8 @@
+let kitten = Kitten(name: "Ryzhik")
+print(kitten.toAnswer()) 
+print(kitten.toAnswer()) 
+print(kitten.toAnswer()) 
+print(kitten.toAnswer()) 
+print(kitten.toAnswer()) 
+print("Yes count: \(kitten.numberYes())") 
+print("No count: \(kitten.numberNo())")   

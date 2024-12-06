@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:laba22}",
+            "name": "Debug laba22",
+            "program": "${workspaceFolder:laba22}/.build/debug/laba22",
+            "preLaunchTask": "swift: Build Debug laba22"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:laba22}",
+            "name": "Release laba22",
+            "program": "${workspaceFolder:laba22}/.build/release/laba22",
+            "preLaunchTask": "swift: Build Release laba22"
+        }
+    ]
+}
